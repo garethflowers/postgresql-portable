@@ -44,15 +44,7 @@
             <h1>{{ site.github.project_tagline }}</h1>
 
             <div id="links">
-              <div>
-                <a href="{{ site.github.repository_url }}" class="button"><img src="/images/github.svg" alt="GitHub"> View on GitHub</a>
-              </div>
-              <div>
-                <a href="{{ site.github.repository_url }}/zipball/master" class="button"><img src="/images/download.svg" alt="Download"> Download .zip</a>
-              </div>
-              <div>
-                <a href="{{ site.github.repository_url }}/tarball/master" class="button"><img src="/images/download.svg" alt="Download"> Download.tar.gz</a>
-              </div>
+              {% include links.html %}
             </div>
 
           </section>
