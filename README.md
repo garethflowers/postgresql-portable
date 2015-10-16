@@ -21,4 +21,4 @@ PostgreSQLPortable is an open source database packaged as a portable app, so you
 ## Licence
 
 * Portable application code released under [the MIT licence](LICENCE).
-* The Tor Browser Bundle is released under [the PostgreSQL Licence](http://www.postgresql.org/about/licence/).
+* The PostgreSQL database is released under [the PostgreSQL Licence](http://www.postgresql.org/about/licence/).
