@@ -1,2 +1,2 @@
-# Ignore all differences in line endings
-* -crlf
+# Prevent end-of-line normalisation
+* -text
