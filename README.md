@@ -5,7 +5,7 @@ PostgreSQLPortable is an open source database packaged as a portable app, so you
 ## Features
 * No installation required. Simply download, extract and run!
 * Runs a complete PostgreSQL Server instance.
-* Does not require a local "postgres" user account or for administrator access, works for any user.
+* Does not require a local "postgres" user account or administrator privileges, works for any user.
 * Completely portable - runs off a USB, cloud drive (DropBox, iCloud drive, OneDrive, etc) or hard drive.
 * Packaged in PortableApps.com format for easy integration.
 
