@@ -1,4 +1,4 @@
-@echo on
+@echo off
 title PostgreSQL Portable
 cls
 
@@ -15,11 +15,10 @@ if not exist "%PGDATA%" (
 :: startup postgres server
 echo.
 "%PGSQL%\bin\pg_ctl" -D "%PGDATA%" -l "%PGLOG%" -w start
-::cls
+cls
 echo.
 echo Type \q to quit and shutdown server
 echo.
 "%PGSQL%\bin\psql.exe"
 echo.
 "%PGSQL%\bin\pg_ctl" -D "%PGDATA%" stop
-pause
