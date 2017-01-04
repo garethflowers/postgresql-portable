@@ -5,6 +5,15 @@ cls
 :: set default code page
 chcp 1252 > nul
 
+:: ensure variables set
+if not defined PGSQL set PGSQL=%~dp0
+if not defined PGDATA set PGDATA=%PGSQL%..\..\Data\data
+if not defined PGLOG set PGLOG=%PGSQL%..\..\Data\log.txt
+if not defined PGLOCALDIR set PGLOCALDIR=%PGSQL%share
+if not defined PGDATABASE set PGDATABASE=postgres
+if not defined PGPORT set PGPORT=5432
+if not defined PGUSER set PGUSER=postgres
+
 :: initialise a new database on first use
 if not exist "%PGDATA%" (
     echo.
