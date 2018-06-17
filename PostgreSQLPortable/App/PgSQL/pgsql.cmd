@@ -16,9 +16,9 @@ if not defined PGUSER set PGUSER=postgres
 
 :: initialise a new database on first use
 if not exist "%PGDATA%" (
-    echo.
-    echo Initialising database for first use, please wait...
-    "%PGSQL%\bin\initdb" -U %PGUSER% -A trust -E utf8 --locale=C >nul
+	echo.
+	echo Initialising database for first use, please wait...
+	"%PGSQL%\bin\initdb" -U %PGUSER% -A trust -E utf8 --locale=C >nul
 )
 
 :: startup postgres server
