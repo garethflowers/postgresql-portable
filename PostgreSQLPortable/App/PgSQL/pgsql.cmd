@@ -17,7 +17,7 @@ echo.
 "%PGSQL%\bin\pg_ctl" -D "%PGDATA%" -l "%PGLOG%" -w start
 cls
 echo.
-echo Type \q to quit and shutdown server
+echo Running on port %PGPORT%. Type \q to quit and shutdown the server.
 echo.
 "%PGSQL%\bin\psql.exe" --port=%PGPORT% --dbname="%PGDATABASE%" --username="%PGUSER%"
 echo.
