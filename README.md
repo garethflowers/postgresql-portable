@@ -15,7 +15,7 @@ with you wherever you go.
 
 ## System Requirements
 
-*	Microsoft Windows 8, 7, Vista or XP.
+*	Microsoft Windows 10, 8, 7, Vista or XP.
 *	[PortableApps.com Platform][1] (Optional)
 
 ## Credits
